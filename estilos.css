@@ -1,0 +1,87 @@
+
+.imagenes{
+    height: 620px;
+}
+
+.logos{
+    height: 140px;
+    display:inline-block;
+    padding-left: 90px;
+}
+.logos2{
+    height: 140px;
+    display:inline-block;
+    padding-left: 60px;
+}
+.logos3{
+    height: 140px;
+    display:inline-block;
+    padding-left: 40px;
+}
+.texto{
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
+}
+
+.titulo{
+    font-family: 'Goblin One', cursive;
+    color: #0C367D;
+}
+
+.derechos{
+    font-family: 'Itim', cursive;
+}
+
+.titulos{
+    font-family: 'Itim', cursive;
+    color: white;
+}
+
+.dlogo{
+    height: 100px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+fondo{
+    background-color: gray;
+}
+
+.static{
+    background-image: url(img/static.jpg);
+    padding: 400px 50px;
+    position: relative;
+    z-index:1;
+    font-family: 'Goblin One', cursive;
+    color: white;
+    background-attachment: fixed;
+    background-size:cover;
+
+}
+
+.static::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.55;
+    z-index: -1;
+}
+    
+.imghist{
+
+    max-width:100%;
+
+}
+
+.carousel2{
+    height: 620px;
+
+}
+
