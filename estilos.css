@@ -1,6 +1,6 @@
 
 .imagenes{
-    height: 620px;
+    height: 675px;
 }
 
 .logos{
@@ -34,7 +34,8 @@
 
 .titulos{
     font-family: 'Itim', cursive;
-    color: white;
+    color: white !important;
+    font-size: 18px;
 }
 
 .dlogo{
@@ -85,3 +86,10 @@ fondo{
 
 }
 
+.hrc{
+    color: bla;
+}
+
+.header .navbar{
+    background-color: transparent !important;
+}
