@@ -34,7 +34,7 @@
 
 .titulos{
     font-family: 'Itim', cursive;
-    color: white !important;
+    color: #1DA2F0 !important;
     font-size: 18px;
 }
 
@@ -84,12 +84,4 @@ fondo{
 .carousel2{
     height: 620px;
 
-}
-
-.hrc{
-    color: bla;
-}
-
-.header .navbar{
-    background-color: transparent !important;
 }
